@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* General page styles */
+*{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f7fa;
+  color: #333;
+}
+
+.app-container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #3498db; /* Blue shade that matches button colors */
+  padding: 10px 20px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 60px;
+}
+.sign-in-container {
+  margin-top: 300px;
+}
+
+.sign-in-container button {
+  margin: 10px;
+}
+
+.navbar a {
+  color: white; /* Ensures links are white */
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #e0e0e0; /* Light grey for hover effect */
+}
+
+/* Specific styling for Clerk's UserButton if needed */
+.clerk-user-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.clerk-user-button:hover {
+  color: #e0e0e0; /* Consistency in hover effects */
+}
+
+/* Additional styles to ensure text and elements are vertically aligned properly */
+/* .navbar * {
+} */
+
+::-webkit-scrollbar {
+  width: 4px;
+  border: 1px solid #d5d5d5;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0;
+  background: #eeeeee;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius:0;
+  background: #3498db;
+}
