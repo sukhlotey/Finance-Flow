@@ -10,3 +10,4 @@ cd server
 * cd client
 * yarn add
 * start client side: yarn run dev
+![Screenshot from 2024-11-17 19-26-34](https://github.com/user-attachments/assets/6b344e87-6d0a-4e56-8dc3-27a3d0b5beed)
